@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Inter', sans-serif;
+  background-color: #0e0e0e;
+  color: white;
+  overflow: hidden;
+}
+
+canvas {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+input[type="text"],
+input[type="number"] {
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #00ffff88;
+  padding: 12px 18px;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+input::placeholder {
+  color: #a6d1ff;
+}
+
+button {
+  border-radius: 9999px;
+  padding: 12px 18px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
